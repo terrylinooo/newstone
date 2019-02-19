@@ -1,0 +1,389 @@
+# Copyright (C) 2011 NewStone Theme
+# This file is distributed under the same license as the NewStone Theme package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2011-07-07 13:03+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: NewStone\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Terry Lin <terry@pcdiy.com>\n"
+"Language-Team: \n"
+
+msgid "NewStone"
+msgstr "新石"
+
+#: 404.php:6
+#: index.php:7
+msgid "Not Found"
+msgstr "找不到"
+
+#: 404.php:9
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "抱歉，找不到您要求的頁面。使用搜尋功能或許會有幫助。"
+
+#: archive.php:13
+msgid "Daily Archives"
+msgstr "每日彙整"
+
+#: archive.php:16
+msgid "Monthly Archives"
+msgstr "每月彙整"
+
+#: archive.php:19
+msgid "Yearly Archives"
+msgstr "年度彙整"
+
+#: archive.php:22
+msgid "Blog Archives"
+msgstr "網誌彙整"
+
+#: archive.php:58
+#: author.php:48
+#: category.php:35
+#: index.php:36
+#: tag.php:35
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> 舊文章"
+
+#: archive.php:59
+#: author.php:49
+#: category.php:36
+#: index.php:37
+#: tag.php:36
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr "新文章 <span class=\"meta-nav\">&raquo;</span>"
+
+#: attachment.php:12
+msgid "Return to %s"
+msgstr "返回 %s"
+
+#: attachment.php:13
+msgid "<span class=\"meta-nav\">&laquo;</span> %s"
+msgstr "<span class=\"meta-nav\">&laquo;</span> %s"
+
+#: attachment.php:62
+#: functions.php:65
+#: loop-standard.php:22
+#: loop-asides.php:22
+msgid "Continue reading <span class=\"meta-nav\">&raquo;</span>"
+msgstr "繼續閱讀 <span class=\"meta-nav\">&raquo;</span>"
+
+#: attachment.php:63
+#: page.php:25
+#: single.php:14
+msgid "Pages:"
+msgstr "頁次："
+
+#: attachment.php:67
+#: loop-gallery.php:32
+#: index-standard.php:32
+#: single.php:18
+msgid "View all posts by %s"
+msgstr "檢視由 %s 發表的文章"
+
+#: attachment.php:69
+msgid "Link to full-size image"
+msgstr "連結至原尺寸圖片"
+
+#: attachment.php:72
+msgid "Full size is %1$s &times; %2$s pixels"
+msgstr "原尺寸為 %1$s &times; %2$s 像素"
+
+#: attachment.php:74
+#: single.php:21
+msgid "Leave a comment"
+msgstr "發表迴響"
+
+#: attachment.php:74
+#: single.php:21
+msgid "1 Comment"
+msgstr "1 則迴響"
+
+#: attachment.php:74
+#: single.php:21
+msgid "% Comments"
+msgstr "% 則迴響"
+
+#: attachment.php:75
+#: single.php:22
+#: loop-asides.php:32
+#: loop-gallery.php:37
+#: loop-standard.php:36
+#: page.php:29
+msgid "Edit"
+msgstr "編輯"
+
+#: author.php:7
+msgid "Author Archives"
+msgstr "作者彙整"
+
+#: author.php:16
+#: single.php:39
+msgid "About %s"
+msgstr "關於 %s"
+
+#: category.php:5
+msgid "Category Archives"
+msgstr "分類彙整"
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "本篇文章有密碼保護。請輸入密碼以檢視內容。"
+
+#: comments.php:10
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "%2$s 有 %1$s 則回應"
+
+#: comments.php:21
+msgid "<span class=\"meta-nav\">&laquo;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&laquo;</span> 舊迴響"
+
+#: comments.php:22
+msgid "Newer Comments <span class=\"meta-nav\">&raquo;</span>"
+msgstr "新迴響 <span class=\"meta-nav\">&raquo;</span>"
+
+#: comments.php:29
+msgid "Comments are closed."
+msgstr "迴響已關閉。"
+
+#: functions.php:28
+msgid "Primary Navigation"
+msgstr "主導覽列"
+
+#: functions.php:110
+msgid "%1$s at %2$s"
+msgstr "%1$s 在 %2$s"
+
+#: functions.php:111
+#: functions.php:132
+msgid "(Edit)"
+msgstr "(編輯)"
+
+#: functions.php:113
+msgid "(Reply)"
+msgstr "(回文)"
+
+#: functions.php:118
+msgid "Your comment is awaiting moderation."
+msgstr "您的迴響正等待審核中。"
+
+#: functions.php:53
+msgid "Green Leaf"
+msgstr "綠葉"
+
+#: functions.php:58
+msgid "Blue Sky"
+msgstr "藍天"
+
+#: functions.php:132
+msgid "Pingback:"
+msgstr "通告："
+
+#: functions.php:141
+msgid "Sidebar 300 (Top)"
+msgstr "邊欄 300 (上)"
+
+#: functions.php:143
+msgid "This 300px width widget is in the top of the sidebar."
+msgstr "此300px寬度的微件位於邊欄的上方。"
+
+#: functions.php:150
+msgid "Sidebar 140 (Left)"
+msgstr "邊欄 140 (左方)"
+
+#: functions.php:152
+msgid "This 140px width widget is in the middle left of the sidebar."
+msgstr "此140px寬度的微件位於邊欄的中左方。"
+
+#: functions.php:159
+msgid "Sidebar 140 (Right)"
+msgstr "邊欄 140 (右方)"
+
+#: functions.php:161
+msgid "This 140px width widget is in the middle right of the sidebar."
+msgstr "此140px寬度的微件位於邊欄的中右方。"
+
+#: functions.php:168
+msgid "Sidebar 300 (Bottom)"
+msgstr "邊欄 300 (下方)"
+
+#: functions.php:170
+msgid "This 300px width widget is in the bottom of the sidebar."
+msgstr "此300px寬度的微件位於邊欄的底部。"
+
+#: functions.php:177
+msgid "Ad 1: Header 468*60"
+msgstr "廣告1：頁首 468*60"
+
+#: functions.php:179
+msgid "This widget is for placing common 468x60 Ad in the header area. Please use \"Text\" to place the Ad."
+msgstr "此微件是用來放置常見的 468x60 廣告，位於頁面頭部。請使用 \"文字\" 來放置廣告。"
+
+#: functions.php:186
+msgid "Ad 2: Sidebar 300*250"
+msgstr "廣告2：邊欄 300*250"
+
+#: functions.php:188
+msgid "This widget is for placing common 300x250 Ad in the top of the sidebar. Please use \"Text\" widget to place the Ad."
+msgstr "此微件是用來放置常見的 300x250 廣告，位於邊欄上方。請使用 \"文字\" 來放置廣告。"
+
+#: functions.php:195
+msgid "Ad 3: Sidebar 300*250"
+msgstr "廣告3：邊欄 300*250"
+
+#: functions.php:197
+msgid "This widget is for placing common 300x250 Ad in the bottom of the sidebar. Please use \"Text\" widget to place the Ad."
+msgstr "此微件是用來放置常見的 300x250 廣告，位於邊欄底部。請使用 \"文字\" 來放置廣告。"
+
+#: functions.php:204
+msgid "Ad 4: Footer 728*90"
+msgstr "廣告4：頁底 728*90"
+
+#: functions.php:206
+msgid "This widget is for placing common 728x90 Ad in the footer area. Please use \"Text\" widget to place the Ad."
+msgstr "此微件是用來放置常見的 728x90 廣告，位於頁面底部區域。請使用 \"文字\" 來放置廣告。"
+
+#: functions.php:213
+msgid "Javascript"
+msgstr "Javascript"
+
+#: functions.php:215
+msgid "You can put Javascript here for your needs. Please use \"Text\" to place the Javascript. It will be placed in front of </body> tag."
+msgstr "您可以依您的需要在此放置Javascript。請使用 \"文字\" 來放置 Javascript。其將出現在 </body> 標簽之前。"
+
+#: functions.php:304
+msgid "1 minute ago"
+msgstr "1 分鐘前"
+
+#: functions.php:306
+msgid "%s minutes ago"
+msgstr "%s  分鐘前"
+
+#: functions.php:313
+msgid "1 hour ago"
+msgstr "1 小時前"
+
+#: functions.php:315
+msgid "%s hours ago"
+msgstr "%s 小時前"
+
+#: functions.php:322
+msgid "1 day ago"
+msgstr "1 天前"
+
+#: functions.php:324
+msgid "%s days ago"
+msgstr "%s 天前"
+
+#: functions.php:331
+msgid "1 week ago"
+msgstr "1 週前"
+
+#: functions.php:333
+msgid "%s weeks ago"
+msgstr "%s 週前"
+
+#: functions.php:340
+msgid "1 month ago"
+msgstr "1 個月前"
+
+#: functions.php:342
+msgid "%s months ago"
+msgstr "%s 個月前"
+
+#: functions.php:349
+msgid "1 year ago"
+msgstr "1 年前"
+
+#: functions.php:351
+msgid "%s years ago"
+msgstr "%s 年前"
+
+#: functions.php:354
+msgid "active less than 1 minute ago"
+msgstr "1 分鍾以內"
+
+#: header.php:33
+msgid "Page %s"
+msgstr "頁 %s"
+
+#: index.php:9
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "抱歉，在已歸檔的資料中找不到您要的結果。搜尋功能或許可以幫助您找到相關的文章。"
+
+#: loop-asides.php:2
+#: loop-gallery.php:2
+#: loop-gallery.php:20
+#: loop-standard.php:2
+msgid "Permalink to %s"
+msgstr "%s 永久鏈結"
+
+#: loop-gallery.php:2
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "這相簿有 <a %1$s>%2$s 張相片</a>。"
+
+#: loop-gallery.php:36
+msgid "View Galleries"
+msgstr "檢視相簿"
+
+#: loop-gallery.php:36
+msgid "More Galleries"
+msgstr "更多相簿"
+
+#: loop-gallery.php:36
+#: loop-standard.php:35
+msgid "0 comments"
+msgstr "0 則迴響"
+
+#: loop-gallery.php:36
+#: loop-standard.php:35
+msgid "1 comments"
+msgstr "1 則迴響"
+
+#: loop-gallery.php:36
+#: loop-standard.php:35
+msgid "% comments"
+msgstr "% 則迴響"
+
+#: search.php:7
+msgid "Search Results for: %s"
+msgstr "搜尋結果：%s"
+
+#: search.php:30
+msgid "Nothing Found"
+msgstr "找不到任何東西"
+
+#: search.php:32
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "抱歉，沒有資料符合您的搜尋條件。請用其他關鍵字再試一次。"
+
+#: sidebar.php:8
+msgid "Search"
+msgstr "搜尋"
+
+#: sidebar.php:13
+msgid "Categories"
+msgstr "分類"
+
+#: sidebar.php:21
+msgid "Meta"
+msgstr "Meta"
+
+#: sidebar.php:32
+msgid "Archives"
+msgstr "歸檔"
+
+#: single.php:43
+msgid "View all posts by %s <span class=\"meta-nav\">&raquo;</span>"
+msgstr "檢視由 %s 發表的文章 <span class=\"meta-nav\">&raquo;</span>"
+
+#: tag.php:5
+msgid "Tag Archives"
+msgstr "標籤彙整"
+
