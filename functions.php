@@ -28,7 +28,23 @@ function newstone_setup() {
 		'primary' => __( 'Primary Navigation', 'newstone' ),
 	) );
 
-	add_custom_background();
+	if ( version_compare( $GLOBALS['wp_version'], '3.4.0', '<' ) ) {
+		add_custom_background();
+	} else {
+		$background_args = array(
+			'default-color'          => '',
+			'default-image'          => '',
+			'default-repeat'         => 'fixed',
+			'default-position-x'     => 'left',
+			'default-position-y'     => 'top',
+			'default-size'           => 'auto',
+			'default-attachment'     => 'scroll',
+			'wp-head-callback'       => '_custom_background_cb',
+			'admin-head-callback'    => '',
+			'admin-preview-callback' => ''
+		);
+		add_theme_support( 'custom-background', $background_args );
+	}
 
 	if ( ! defined( 'HEADER_TEXTCOLOR' ) )
 		define( 'HEADER_TEXTCOLOR', '' );
@@ -44,7 +60,28 @@ function newstone_setup() {
 	if ( ! defined( 'NO_HEADER_TEXT' ) )
 		define( 'NO_HEADER_TEXT', true );
 
-	add_custom_image_header( '', 'newstone_admin_header_style' );
+	if ( version_compare( $GLOBALS['wp_version'], '3.4.0', '<' ) ) {
+		add_custom_image_header( '', 'newstone_admin_header_style' );
+	} else {
+		// Add theme support for Custom Header
+		$header_args = array(
+			'default-image'          => '',
+			'width'                  => 1920,
+			'height'                 => 640,
+			'flex-width'             => false,
+			'flex-height'            => false,
+			'uploads'                => true,
+			'random-default'         => false,
+			'header-text'            => true,
+			'default-text-color'     => 'ffffff',
+			'wp-head-callback'       => '_custom_background_cb',
+			'admin-head-callback'    => '',
+			'admin-preview-callback' => '',
+			'video'                  => false,
+			'video-active-callback'  => '',
+		);
+		add_theme_support( 'custom-header', $header_args );
+	}
 
 	register_default_headers( array(
 		'greenleaf' => array(
