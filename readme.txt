@@ -1,11 +1,13 @@
 === Mynote ===
 Contributors: Terry Lin
-Requires at least: WordPress 3.0
+Requires at least: WordPress 3.6
 Tested up to: WordPress 5.0.3
-Version: 1.2.3
+Version: 2.0.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl.html
 Tags: gray, white, two-columns, three-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats
+Requires PHP: 5.2.4
+Stable tag: 2.0.0
 
 == Description ==
 
@@ -42,3 +44,9 @@ GNU General Public License for more details.
 = 1.2.3 =
 
 - Modify function.php to fit the new WordPress 5.x.
+- Update readme and screenshot.
+
+= 2.0.0
+
+- Modify code to fit the last Theme Review requirements.
+- Drop out IE 6 support.
