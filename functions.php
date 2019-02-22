@@ -285,25 +285,6 @@ function clean_img_height( $img_src ){
 
 add_filter('get_image_tag', 'clean_img_height', 91); 
 
-function newstone_fix_ie() {
-	echo "<!--[if (IE 6)]>\n";
-	echo "<style type=\"text/css\">\n";
-	echo "body {\n";
-	echo "	behavior: url(\"" . get_template_directory_uri() .  "/csshover3.htc\")\n";
-	echo "}\n";
-	echo "</style>\n";
-	echo "<![endif]-->\n";
-}
-
-function newstone_custom_style() {
-	if ( true === strpos( $_SERVER['HTTP_USER_AGENT'], 'MSIE 6' ) ) {
-		echo get_template_directory_uri() . '/style_ie6.css';
-		add_action('wp_head', 'newstone_fix_ie');
-	} else {
-		echo get_template_directory_uri() . '/style.css';
-	}
-}
-
 function newstone_comment_time( $comments_day, $comments_time ) {
 
 	$newstone_second = 1;
@@ -389,7 +370,6 @@ function newstone_comment_time( $comments_day, $comments_time ) {
 
 function newstone_header_text() {
 	$blog_title       = get_bloginfo( 'name' );
-	//$blog_description = get_bloginfo( 'description' );
 	$heading_tag      = ( is_home() || is_front_page() ) ? 'h1' : 'div';
 	$heading_export   = '<' . $heading_tag . ' id="site-title"><a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( $blog_title ) . '" rel="home">' . $blog_title . '</a></' . $heading_tag . '>';
 	echo $heading_export;

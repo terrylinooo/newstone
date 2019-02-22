@@ -2,39 +2,25 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php newstone_custom_style(); ?>" />
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 
 	wp_head();
+
 ?>
 </head>
-
-<html <?php language_attributes(); ?> class="no-js">
-<head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<?php wp_head(); ?>
-
-</head>
-
 <body <?php body_class(); ?>>
 <div id="wrapper" class="base_bg">
 	<div id="newstone">
 		<div id="header-info">
 			<div id="header-info-left">
-				<?php echo $heading_export; ?>
+				<?php newstone_header_text(); ?>
 			</div>
 			<div id="header-info-right">
-				<?php
-
-					if ( is_active_sidebar( 'header-widget' ) ) 
-						dynamic_sidebar( 'header-widget' );
-					else
-						echo '<div id="site-description">' . $blog_description . '</div>';
-				?>
+				<?php if ( is_active_sidebar( 'header-widget' ) ) : ?>
+					<?php dynamic_sidebar( 'header-widget' ); ?>
+				<?php else : ?>
+					<div id="site-description"><?php bloginfo( 'description' ); ?></div>
+				<?php endif; ?>
 			</div>
 			<div class="clearboth"></div>
 		</div>
