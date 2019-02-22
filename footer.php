@@ -10,10 +10,11 @@
 				<div id="credit-left">
 					<div id="site-info"><a href="<?php echo home_url( '/' ); ?>"><?php bloginfo( 'name' ); ?></a></div>
 				</div>
+				<?php if ( is_home() || is_front_page() ) : ?>
 				<div id="credit-right">
-					<div id="theme-designer" class="icon"><a href="<?php echo esc_url( __( 'http://www.pcdiy.com/themes/newstone', 'newstone' ) ); ?>">NewStone theme by PcDiy</a>.</div>
-					<div id="site-generator" class="icon"><a href="<?php echo esc_url( __( 'http://wordpress.org/', 'newstone' ) ); ?>">Powered by WordPress</a>.</div>
+					<div id="theme-designer" class="icon"><a href="<?php echo esc_url( __( 'https://terryl.in/', 'newstone' ) ); ?>">NewStone theme by TerryL</a>.</div>
 				</div>
+				<?php endif; ?>
 			</div>
 			<div class="clearboth"></div>
 		</div>
