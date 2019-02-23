@@ -50,3 +50,7 @@ GNU General Public License for more details.
 
 - Modify code to fit the last Theme Review requirements.
 - Drop out IE 6 support.
+
+= 2.0.2
+
+- Adjust default header image and remove default background image.
