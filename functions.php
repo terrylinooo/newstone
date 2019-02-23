@@ -22,7 +22,7 @@ if ( ! function_exists( 'newstone_setup' ) ) {
 
 		$background_args = array(
 			'default-color'          => '',
-			'default-image'          => '%s/images/headers/bluesky.jpg',
+			'default-image'          => '',
 			'default-repeat'         => 'fixed',
 			'default-position-x'     => 'left',
 			'default-position-y'     => 'top',
@@ -38,7 +38,7 @@ if ( ! function_exists( 'newstone_setup' ) ) {
 
 		// Add theme support for Custom Header
 		$header_args = array(
-			'default-image'          => '',
+			'default-image'          => '%s/images/headers/bluesky.jpg',
 			'width'                  => 960,
 			'height'                 => 130,
 			'flex-width'             => false,
